@@ -1,8 +1,0 @@
-name: FirstMod
-version: '${project.version}'
-main: com.manny.firstmod.FirstMod
-api-version: 1.19
-commands:
-  heal:
-  freeze:
-  unfreeze:
