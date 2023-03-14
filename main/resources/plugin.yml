@@ -1,0 +1,16 @@
+name: MTools
+version: '${project.version}'
+main: com.manny.mtools.MTools
+api-version: 1.19
+permissions:
+  permissions.node:
+    default: op
+commands:
+  heal:
+    permission: permissions.node
+  freeze:
+    permission: permissions.node
+  unfreeze:
+    permission: permissions.node
+  frozen:
+    permission: permissions.node
