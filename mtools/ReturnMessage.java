@@ -33,14 +33,4 @@ public class ReturnMessage {
         ReturnMessage.error(sender, String.format("This command takes exactly %d parameters", desiredAmount));
 
     }
-
-    public static void skillLevelUp(CommandSender sender, String skill, int level) {
-        if (sender instanceof Player) {
-            sender.sendMessage(ChatColor.LIGHT_PURPLE + "" + ChatColor.BOLD + "LEVEL UP! " + ChatColor.RESET + skill + " skill --> " + level);
-        } else {
-            ConsoleLog.error("Idk how tf but the console levelled up somehow");
-        }
-    }
-
-
 }
